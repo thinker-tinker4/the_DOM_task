@@ -3,7 +3,5 @@
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-
-
 # Don't track content of these folders
 .vscode/
