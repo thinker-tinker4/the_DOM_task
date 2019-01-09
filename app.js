@@ -9,8 +9,8 @@ const technology = (el) => {
    img.src = el.image;
 };
 ul.addEventListener ('click', event => {
-   document.querySelector('.active').classList.remove('.active');
-   event.target.classList.add('active');
+   document.querySelector('.default').classList.remove('.default');
+   event.target.classList.add('default');
    const currentParagraph = (el) => event.target.textContent == el.name;
    technology(data.find(currentParagraph));
  });
